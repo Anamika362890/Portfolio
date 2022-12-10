@@ -7,9 +7,14 @@ import { Link, NavLink } from 'react-router-dom';
 const NavBar = () => {
     const menuItems = <React.Fragment>
 
-        <Link to='/'>Home</Link>
-        <Link to='/about'>About</Link>
+        <div >
+            <Link to='/'>Home</Link>
+            <Link to='/about'>About Me</Link>
+            <Link to='/projects'>Projects</Link>
+            <Link to='/services'>Services</Link>
+            <Link to='/contact'>Contact</Link>
 
+        </div>
 
 
 
@@ -23,7 +28,7 @@ const NavBar = () => {
 
         <div >
 
-            <div className="navbar bg-base-100 flex justify-between">
+            <div className="navbar bg-black text-white flex justify-between">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -39,7 +44,7 @@ const NavBar = () => {
 
 
 
-                    <Link to='/' className="btn btn-ghost normal-case text-xl">Doctors Portal</Link>
+                    <Link to='/' className="btn btn-ghost normal-case text-xl">Anamika Goswami</Link>
                 </div>
                 <div className="navbar-end hidden lg:flex">
                     <ul className="menu menu-horizontal p-0">

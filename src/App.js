@@ -6,7 +6,7 @@ import { router } from './Routes/Routes';
 function App() {
 
   return (
-    <div >
+    <div className='bg-[#131f33]' >
       <RouterProvider
         router={router}
 
