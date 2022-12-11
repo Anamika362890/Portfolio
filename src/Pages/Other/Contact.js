@@ -15,12 +15,17 @@ const Contact = () => {
 
             <h1 className='text-3xl my-4'>OR</h1>
 
+            <form target="_blank" action="https://formsubmit.co/anamika362890@gmail.com" method="POST">
 
-            <input type="text" placeholder="Enter Your Name" className=" mb-5 input input-bordered w-full max-w-xl" required /> <br></br>
-            <input type="email" placeholder="Enter Your Email" className="input mb-5 input-bordered w-full max-w-xl" required /><br></br>
-            <textarea className="textarea textarea-bordered w-full pb-8 max-w-xl" placeholder="Message"></textarea>
-            <br></br>
-            <button className='btn btn-success text-white mt-9'>Send Message</button>
+                <input type="text" placeholder="Enter Your Name" className=" mb-5 input input-bordered w-full max-w-xl" required /> <br></br>
+                <input type="email" placeholder="Enter Your Email" className="input mb-5 input-bordered w-full max-w-xl" required /><br></br>
+                <textarea className="textarea textarea-bordered w-full pb-8 max-w-xl" placeholder="Message"></textarea>
+                <br></br>
+                <button className='btn btn-success text-white mt-9'>Send Message</button>
+
+            </form>
+
+
 
 
 

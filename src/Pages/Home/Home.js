@@ -2,7 +2,8 @@ import React from 'react';
 import AboutMe from '../Other/AboutMe';
 import Banner from '../Other/Banner';
 import Contact from '../Other/Contact';
-import Projects from '../Other/Projects';
+import Projects from '../Other/Projects/Projects';
+
 import Services from '../Other/Services';
 
 const Home = () => {

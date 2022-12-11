@@ -1,7 +1,9 @@
 import React from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 
-const Project = ({ project }) => {
-    const { name, intro, img, tech, live } = project;
+const Project = ({ project, setPro }) => {
+
+    const { id, name, intro, img, tech, live } = project;
     return (
         <div >
 
@@ -13,14 +15,15 @@ const Project = ({ project }) => {
                     <h2 className="card-title">{name}</h2>
                     <p>A {intro} using {tech}</p>
                     <div className="card-actions">
-                        <button className="btn btn-success text-white ">See Details</button>
+                        <Link id={id} to={`/details/${id}`}><button className="btn btn-success text-white ">See Details</button></Link>
+
                         <a href={live}> <button className="btn btn-success text-white ">Live Link</button></a>
 
                     </div>
                 </div>
             </div>
 
-        </div>
+        </div >
     );
 };
 
