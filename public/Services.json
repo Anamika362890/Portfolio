@@ -1,0 +1,31 @@
+[
+    {
+        "id": 1,
+        "name": "Web Design",
+        "intro": "Food Review Website",
+        "img": "https://i.ibb.co/pzpgKgB/foodie.png",
+        "live": "https://foodies-express-61c7a.web.app/",
+        "server": "Server-side-code:https://github.com/Anamika362890/foodie-express-server",
+        "client": "https://github.com/Anamika362890/foodie-express-client",
+        "tech": "React.js, HTML, Node.js, Express.js, MongoDB, Firebase, Tailwind-CSS."
+    },
+    {
+        "id": 2,
+        "name": "Web Development",
+        "intro": "Learning Platform Website",
+        "live": "https://coding-school-client.web.app/",
+        "img": "https://i.ibb.co/8zBpJbR/coding.png",
+        "server": "https://github.com/Anamika362890/coding-school-server",
+        "client": "https://github.com/Anamika362890/coding-school",
+        "tech": "HTML, CSS, Bootstrap,Vercel, React.js, Express.js, Firebase,MongoDB."
+    },
+    {
+        "id": 3,
+        "name": "Responsive Design",
+        "intro": "Exam Taker Website",
+        "live": "https://glittering-strudel-48e429.netlify.app/",
+        "img": "https://i.ibb.co/Th4hfsB/quick.png",
+        "client": "https://github.com/Anamika362890/quick-quiz",
+        "tech": "HTML, CSS, React-Router, React,Netlify."
+    }
+]

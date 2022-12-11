@@ -12,17 +12,7 @@ const Banner = () => {
                 <h1 className='text-2xl text-white'>Hi!!I am 👋</h1>
                 <h1 className='text-5xl font-bold my-2 text-success'>Anamika Goswami</h1>
                 <h1 className='text-2xl text-white my-3'>Junior Web Developer <span className='text-success font-bold'>||</span> MERN Stack Developer</h1>
-                <div className='flex'>
 
-                    <FontAwesomeIcon className='text-warning text-2xl mt-1 mr-2' icon={faLocation}></FontAwesomeIcon>
-                    <h1 className='text-xl text-white'>Dhaka,Bangladesh</h1>
-                </div>
-                <div className='flex my-4'>
-
-                    <FontAwesomeIcon className='text-warning text-2xl mt-1 mr-2' icon={faInbox}></FontAwesomeIcon>
-
-                    <h1 className='text-xl text-white'>anamika362890@gmail.com</h1>
-                </div>
                 <Link to="/contact"> <button className='btn btn-success text-white mr-1 '>Hire Me</button></Link>
                 <a href='https://drive.google.com/uc?id=1P2ubHzNzWYthkctueziOy_hZY_wTrlRa&export=download' >   <button className='btn btn-success text-white'>Download Resume</button></a>
             </div>
