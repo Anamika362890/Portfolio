@@ -7,7 +7,7 @@ const Project = ({ project, setPro }) => {
     return (
         <div >
 
-            <div className="card:w-96 lg:h-[58vh] md:[300vh] rounded-md bg-gray-900 shadow-3xl">
+            <div className="card lg:w-96 lg:h-[60vh] md:[300vh] rounded-md bg-gray-900 shadow-3xl">
                 <figure className="px-10 pt-10">
                     <img className="overflow-y-auto rounded-xl " src={img} alt="" />
                 </figure>
