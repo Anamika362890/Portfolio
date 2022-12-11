@@ -6,13 +6,13 @@ import img from "../../assests/96479-student-girl-academy.gif"
 const AboutMe = () => {
 
     return (
-        <div className='max-w-[1280px] mx-auto my-20 '>
+        <div className='lg:max-w-[1280px] md:max-w-[650px] max-w-[350px] mx-auto my-20 '>
 
-            <div className='grid grid-cols-2 gap-20  '>
+            <div className='grid lg:grid-cols-2 lg:gap-20  '>
                 <div>
                     <img className='rounded-3xl ' src={img} alt="" />
                 </div>
-                <div className=' my-5 border-l-2 border-success px-5 text-white'>
+                <div className=' lg:my-5 my-10 border-l-2 border-success px-5 text-white'>
                     <h1 className='text-4xl font-bold text-success'>About Me</h1>
                     <p className='my-4'>I am Anamika Goswami.I am from Dhaka,Bangladesh.I am a Front-end developer,Specially MERN Developer.I have completed BSC in Computer Science and Engineering in 2021.</p>
                     <div >

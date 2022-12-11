@@ -7,17 +7,25 @@ const Project = ({ project, setPro }) => {
     return (
         <div >
 
-            <div className="card w-96 bg-gray-900 shadow-xl">
+            <div className="card:w-96 lg:h-[58vh] md:[300vh] rounded-md bg-gray-900 shadow-3xl">
                 <figure className="px-10 pt-10">
-                    <img src={img} alt="Shoes" className="rounded-xl" />
+                    <img src={img} alt="" className="rounded-xl" />
                 </figure>
-                <div className="card-body items-center text-center">
+                <div className="card-body items-center text-center h- ">
                     <h2 className="card-title">{name}</h2>
                     <p>A {intro} using {tech}</p>
                     <div className="card-actions">
-                        <Link id={id} to={`/details/${id}`}><button className="btn btn-success text-white ">See Details</button></Link>
+                        <label
+
+                            htmlFor="booking-modal"
+                            className="btn btn-success  text-white"
+                            onClick={() => setPro(project)}
+
+                        >See Details</label>
 
                         <a href={live}> <button className="btn btn-success text-white ">Live Link</button></a>
+
+
 
                     </div>
                 </div>

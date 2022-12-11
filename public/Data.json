@@ -7,7 +7,8 @@
         "live": "https://foodies-express-61c7a.web.app/",
         "server": "Server-side-code:https://github.com/Anamika362890/foodie-express-server",
         "client": "https://github.com/Anamika362890/foodie-express-client",
-        "tech": "React.js, HTML, Node.js, Express.js, MongoDB, Firebase, Tailwind-CSS."
+        "tech": "React.js, HTML, Node.js, Express.js, MongoDB, Firebase, Tailwind-CSS.",
+        "Overview": "A Review Website including firebase authentication, CRUD operation, JWT verify and add service dynamically Login, Signup system implemented here.Users have to option to give their reviews. Users' reviews will be added here."
     },
     {
         "id": 2,
@@ -17,7 +18,8 @@
         "img": "https://i.ibb.co/8zBpJbR/coding.png",
         "server": "https://github.com/Anamika362890/coding-school-server",
         "client": "https://github.com/Anamika362890/coding-school",
-        "tech": "HTML, CSS, Bootstrap,Vercel, React.js, Express.js, Firebase,MongoDB."
+        "tech": "HTML, CSS, Bootstrap,Vercel, React.js, Express.js, Firebase,MongoDB.",
+        "Overview": "This is a Course Purchase related website.  I apply here authentication, login, Registration system.Users can login in and buy their courses and know about all courses details.PDF downloader option is also implemented"
     },
     {
         "id": 3,
@@ -26,6 +28,7 @@
         "live": "https://glittering-strudel-48e429.netlify.app/",
         "img": "https://i.ibb.co/Th4hfsB/quick.png",
         "client": "https://github.com/Anamika362890/quick-quiz",
-        "tech": "HTML, CSS, React-Router, React,Netlify."
+        "tech": "HTML, CSS, React-Router, React,Netlify.",
+        "Overview": "Here Users can See Quiz Paper, Choose Their answer, and see if their answer is right or wrong. There is an option to see correct answer. A website with responsive design with a static bar"
     }
 ]

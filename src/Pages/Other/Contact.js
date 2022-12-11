@@ -6,7 +6,7 @@ import { Form } from 'react-router-dom';
 const Contact = () => {
     return (
 
-        <div className='App text-white my-20'>
+        <div className='App text-white my-0 mb-6 md:max-w-[700px] lg:max-w-[1280px] max-w-[300px] mx-auto'>
             <h1 className='text-success text-4xl font-bold my-4'>Contact Me</h1>
             <p>Please do not hesitate to contact me
                 , I will  try to give you my best.</p>
