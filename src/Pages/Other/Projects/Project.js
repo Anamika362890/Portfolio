@@ -9,7 +9,7 @@ const Project = ({ project, setPro }) => {
 
             <div className="card:w-96 lg:h-[58vh] md:[300vh] rounded-md bg-gray-900 shadow-3xl">
                 <figure className="px-10 pt-10">
-                    <img src={img} alt="" className="rounded-xl" />
+                    <img className="overflow-y-auto rounded-xl " src={img} alt="" />
                 </figure>
                 <div className="card-body items-center text-center h- ">
                     <h2 className="card-title">{name}</h2>

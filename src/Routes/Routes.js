@@ -1,5 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../Layout/Main";
+import Blogs from "../Pages/Blogs";
 import Home from "../Pages/Home/Home";
 import AboutMe from "../Pages/Other/AboutMe";
 import Contact from "../Pages/Other/Contact";
@@ -39,8 +40,14 @@ export const router = createBrowserRouter(
                     element: <Services></Services>
                 },
                 {
+                    path: "/blogs",
+                    element: <Blogs></Blogs>
+                },
+                {
                     path: "/details/:id",
-
+                    loader: async ({ params }) => {
+                        return fetch(`Data.json/${params.id}`)
+                    },
                     element: <ProjectDetails></ProjectDetails>
                 }
             ]

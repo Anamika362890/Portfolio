@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
 
 const ProjectDetails = ({ Pro, setPro }) => {
-    const { name, intro, live, server, client, tech, Overview, img } = Pro;
+    const { name, intro, live, server, client, tech, Overview, img, img1, img2, img3 } = Pro;
 
 
     return (
@@ -23,21 +23,21 @@ const ProjectDetails = ({ Pro, setPro }) => {
                                     </div>
                                 </div>
                                 <div id="slide2" className="carousel-item relative w-full">
-                                    <img src="https://placeimg.com/800/200/arch" className="w-full" />
+                                    <img src={img1} alt="" className="w-full h-72" />
                                     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                                         <a href="#slide1" className="btn btn-circle">❮</a>
                                         <a href="#slide3" className="btn btn-circle">❯</a>
                                     </div>
                                 </div>
                                 <div id="slide3" className="carousel-item relative w-full">
-                                    <img src="https://placeimg.com/800/200/arch" className="w-full" />
+                                    <img src={img2} alt="" className="w-full h-72" />
                                     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                                         <a href="#slide2" className="btn btn-circle">❮</a>
                                         <a href="#slide4" className="btn btn-circle">❯</a>
                                     </div>
                                 </div>
                                 <div id="slide4" className="carousel-item relative w-full">
-                                    <img src="https://placeimg.com/800/200/arch" className="w-full h-72" />
+                                    <img src={img3} className="w-full h-72" alt='' />
                                     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                                         <a href="#slide3" className="btn btn-circle">❮</a>
                                         <a href="#slide1" className="btn btn-circle">❯</a>

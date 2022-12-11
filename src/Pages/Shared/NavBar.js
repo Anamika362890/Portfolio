@@ -41,6 +41,7 @@ const NavBar = () => {
                             <Link className='mb-5' to='/projects'>Projects</Link>
                             <Link className='mb-5' to='/services'>Services</Link>
                             <Link className='mb-5' to='/contact'>Contact</Link>
+                            <Link className='mb-5' to='/blogs'>Blogs</Link>
 
                         </ul>
                     </div>
