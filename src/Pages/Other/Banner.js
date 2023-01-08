@@ -8,7 +8,7 @@ import "../Other/Banner.css"
 
 const Banner = () => {
     return (
-        <div className=' my-20 lg:p-20 pb-10 lg:pb-0 rounded-2xl max-w-[320px] shadow-2xl md:max-w-[700px] lg:max-w-[1280px] mx-auto lg:flex justify-evenly items-center bg-gray-900'>
+        <div className=' my-20 lg:p-20 pb-10 lg:pb-16 rounded-2xl max-w-[320px] shadow-2xl md:max-w-[700px] lg:max-w-[1280px] mx-auto lg:flex justify-evenly items-center bg-gray-900'>
             <div className="avatar my-10 lg:hidden ">
                 <div className="lg:w-20 h-[150px] md:mx-72 mx-20  rounded-full ring ring-success ring-offset-base-100 ring-offset-2">
                     <img src={img} alt="" />
